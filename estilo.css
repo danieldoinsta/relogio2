@@ -1,0 +1,57 @@
+@charset "UFT-8";
+
+body {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    font-family:"Orbitron", sans-serif;
+    text-align: end;
+    justify-content:space-around;
+    color: rgb(229, 220, 234);
+    font-size: 35px;
+}
+
+
+.relogio {
+    font-family: "Orbitron", sans-serif;
+    text-align:end;
+    text-decoration: dashed;
+    font-size: 50px;
+    color: rgb(252, 6, 6)
+}
+
+
+
+.frase {
+    font-family: "Orbitron", sans-serif;
+    text-align: end;
+    text-decoration: dashed;
+    font-size: 25px;
+    color: rgb(229, 220, 234)
+}
+
+#cafe {
+    width: 120px;
+    flex-direction: column;
+    align-items: end;
+}
+
+footer{
+    display:block;
+    position: fixed;
+    bottom: 0vh;
+    left: 0%;
+    width: 100%;
+    background-color:#a3c9a7;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+    color: rgb(16, 27, 234);
+}
+
+footer:hover {
+    background-color: rgb(15, 136, 136);
+}
